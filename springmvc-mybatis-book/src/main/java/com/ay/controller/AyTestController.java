@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AyTestController {
     @GetMapping("/sayHello")
     public String sayHello(){
-        return "hello";
+        return "hellotest";
     }
 }
